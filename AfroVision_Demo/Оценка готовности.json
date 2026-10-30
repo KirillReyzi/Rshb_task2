@@ -1,0 +1,226 @@
+{
+  "id": "d110ffc4-bb70-4a04-a6b3-69497e295e15",
+  "version": 2,
+  "assets": [
+    {
+      "id": "image_0",
+      "role": "product",
+      "view_type": "front",
+      "original": "/uploads/d110ffc4-bb70-4a04-a6b3-69497e295e15/original_0.png",
+      "url": "/uploads/d110ffc4-bb70-4a04-a6b3-69497e295e15/image_0_cutout_fast.png",
+      "width": 600,
+      "height": 877,
+      "remove": true,
+      "background_method": "u2netp",
+      "background_seconds": 59.53
+    }
+  ],
+  "options": {
+    "background_quality": "fast",
+    "vision": true
+  },
+  "job": {
+    "status": "done",
+    "stage": "Готово — выберите оформление и проверьте категорию",
+    "completed": 2,
+    "total": 2,
+    "warnings": [],
+    "elapsed_seconds": 121.3
+  },
+  "recognition": {
+    "categories": [
+      {
+        "category": "Банка с продуктом",
+        "description": "a retail jar with a product inside",
+        "similarity": 0.1852,
+        "raw_similarity": 28.0756,
+        "combined_score": 0.1852,
+        "source": "image"
+      },
+      {
+        "category": "Свечи и аромат для дома",
+        "description": "a scented candle or home fragrance product",
+        "similarity": 0.1199,
+        "raw_similarity": 27.6408,
+        "combined_score": 0.1199,
+        "source": "image"
+      },
+      {
+        "category": "Мёд",
+        "description": "a jar of honey",
+        "similarity": 0.1119,
+        "raw_similarity": 27.5718,
+        "combined_score": 0.1119,
+        "source": "image"
+      },
+      {
+        "category": "Сыр",
+        "description": "a block or package of cheese",
+        "similarity": 0.0857,
+        "raw_similarity": 27.3046,
+        "combined_score": 0.0857,
+        "source": "image"
+      },
+      {
+        "category": "Специи и приправы",
+        "description": "a jar or packet of spices or seasoning",
+        "similarity": 0.0785,
+        "raw_similarity": 27.2173,
+        "combined_score": 0.0785,
+        "source": "image"
+      }
+    ],
+    "note": "Рейтинг CLIP — относительное сходство, не вероятность правильного ответа. Подтвердите категорию вручную."
+  },
+  "product": {
+    "category": "Мёд",
+    "name": "Липовый мёд",
+    "description": "Липовый мёд.",
+    "facts": [],
+    "confirmed": true
+  },
+  "settings": {
+    "style": "studio",
+    "format": "3:4",
+    "bg": "#efeee8",
+    "backgroundMode": "plain",
+    "secondary": "#ddd8cb",
+    "accent": "#897a60",
+    "backgroundStrength": 0.7,
+    "backgroundAngle": 125,
+    "pedestal": "none",
+    "pedestalColor": "#d8c7ad",
+    "bubble": "rounded",
+    "font": "Manrope",
+    "templates": [
+      "hero"
+    ],
+    "background": null,
+    "pattern": "none",
+    "assetRoles": {},
+    "assetCaptions": {},
+    "focal": [
+      {
+        "x": 0.5421334716459205,
+        "y": 0.3071490318118934
+      },
+      {
+        "x": 0.5963934426229511,
+        "y": 0.6392486338797779
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "n_mvv326kb_483",
+      "template": "hero",
+      "title": "Главная",
+      "width": 1200,
+      "height": 1600,
+      "background": "#efeee8",
+      "nodes": [
+        {
+          "id": "n_mvv326kb_481",
+          "type": "text",
+          "title": "Название товара",
+          "x": 72,
+          "y": 64,
+          "w": 1056,
+          "h": 256,
+          "rotation": 0,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "text": "Липовый мёд",
+          "font": "Manrope",
+          "fontSize": 168,
+          "bold": false,
+          "align": "left",
+          "fill": "#1f2925"
+        },
+        {
+          "id": "n_mvv326kb_482",
+          "type": "image",
+          "title": "Товар",
+          "x": 329.2953249714937,
+          "y": 384,
+          "w": 733.4093500570126,
+          "h": 1072,
+          "rotation": 0,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "src": "/uploads/d110ffc4-bb70-4a04-a6b3-69497e295e15/image_0_cutout_fast.png",
+          "assetId": "image_0",
+          "role": "product",
+          "fit": "contain",
+          "zoom": 1,
+          "cropX": 0,
+          "cropY": 0
+        }
+      ],
+      "notes": [],
+      "style": "studio",
+      "generatorVersion": 3,
+      "usedAssets": [
+        "image_0"
+      ],
+      "backgroundSettings": {
+        "style": "studio",
+        "format": "3:4",
+        "bg": "#efeee8",
+        "backgroundMode": "plain",
+        "secondary": "#ddd8cb",
+        "accent": "#897a60",
+        "backgroundStrength": 0.7,
+        "backgroundAngle": 125,
+        "pedestal": "none",
+        "pedestalColor": "#d8c7ad",
+        "bubble": "rounded",
+        "font": "Manrope",
+        "templates": [
+          "hero"
+        ],
+        "background": null,
+        "pattern": "none",
+        "assetRoles": {},
+        "assetCaptions": {},
+        "focal": [
+          {
+            "x": 0.5421334716459205,
+            "y": 0.3071490318118934
+          },
+          {
+            "x": 0.5963934426229511,
+            "y": 0.6392486338797779
+          }
+        ]
+      }
+    }
+  ],
+  "assessment": {
+    "score": 83,
+    "checks": {
+      "Основная фотография": true,
+      "Категория": true,
+      "Название": true,
+      "Описание": true,
+      "Подтверждённые характеристики категории": false,
+      "Ручное подтверждение": true
+    },
+    "missing": [
+      "Подтверждённые характеристики категории"
+    ],
+    "required_fields": [
+      "Масса / объём",
+      "Состав"
+    ],
+    "missing_fields": [
+      "Масса / объём",
+      "Состав"
+    ],
+    "warnings": [],
+    "status": "needs_review",
+    "note": "Предварительная проверка по демонстрационному профилю. Не заменяет правила площадки и проверку фактов человеком."
+  }
+}
